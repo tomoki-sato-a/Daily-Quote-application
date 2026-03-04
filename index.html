@@ -23,11 +23,11 @@
     <script src="quotesdata.js"></script>
     <!-- ロジック本体 -->
     <script src="main.js"></script>
-  <script>
+    <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
         navigator.serviceWorker
-          .register("/sw.js")
+          .register("sw.js")  // ← 先頭の / を取る
           .catch(err => console.error("SW registration failed", err));
       });
     }

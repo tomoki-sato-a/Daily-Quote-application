@@ -1,7 +1,6 @@
 {
   "name": "名言アプリ",
   "short_name": "名言",
-  "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1976d2",
